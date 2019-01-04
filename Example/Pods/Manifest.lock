@@ -1,0 +1,16 @@
+PODS:
+  - TinyConsole (1.3.2)
+
+DEPENDENCIES:
+  - TinyConsole (from `../`)
+
+EXTERNAL SOURCES:
+  TinyConsole:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TinyConsole: c2e153f8d952afee11ae65d525362ced3557b340
+
+PODFILE CHECKSUM: 72aa9b7a0dd11bb4da3bc5291ad8cd79afac1e87
+
+COCOAPODS: 1.5.0

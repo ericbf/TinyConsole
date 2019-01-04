@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TinyConsole_Example' do
+  pod 'TinyConsole', :path => '../'
+
+  target 'TinyConsole_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

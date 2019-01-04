@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F277E2E6663E657267045B86B275023 /* Pods-TinyConsole_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E46205DF1978CAFCC3AD1CEAF1F8A2A /* Pods-TinyConsole_Example-dummy.m */; };
+		37EDB4A2698F2FAB143B03082CCE9705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3E00F70FA51B2A8D71E3DFE3395760D2 /* TinyConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46181AEF7CFD8C90A952D906E20A46B4 /* TinyConsoleViewController.swift */; };
+		4C9B6688BBCB25D7D1C93A564198BB22 /* TinyConsoleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC98F5DE74C5B70430DFD91B5F2728 /* TinyConsoleController.swift */; };
+		57907644FFAD99E8F5C27A7CD2953ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		59106329E1CC59855C88C8B14F1A1AB6 /* Pods-TinyConsole_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 930518FC4E1673FFC94DCDF418CBCE27 /* Pods-TinyConsole_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9DF131C36D1B1701083DE9ADC48C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		67D463223A8BD31F273D5787B46104A1 /* TinyConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2857308D85CACC53107B5261CD8F38F /* TinyConsole.swift */; };
+		73469387386C6E02A989681089B30D5C /* Pods-TinyConsole_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8615B35C03AB91D0E7825BE74BAE0F /* Pods-TinyConsole_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A6D13BEC07B29F55C96225F440B1C0 /* TinyConsole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C85A194885655B8319C2FE36A4B1ED7 /* TinyConsole-dummy.m */; };
+		B501AD00F352B00620B6E870A8DA1F36 /* Pods-TinyConsole_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B50EE4E46322E8ED5A38ABA1E2E1B07 /* Pods-TinyConsole_Tests-dummy.m */; };
+		C2C6CBE4AD0E4D4D4F5B6F549D53B963 /* TinyConsole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295703229B67B82F42568C3763AF61CC /* TinyConsole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248C2A5CF6380CBD200ED0A1DA790864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A017B07DE5D49BF2DA1A6D245312874;
+			remoteInfo = TinyConsole;
+		};
+		D9AAC71622508E0D3F62350D134B0018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8633CDB02358EE12B73C23792F8A268B;
+			remoteInfo = "Pods-TinyConsole_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B50EE4E46322E8ED5A38ABA1E2E1B07 /* Pods-TinyConsole_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinyConsole_Tests-dummy.m"; sourceTree = "<group>"; };
+		0D8615B35C03AB91D0E7825BE74BAE0F /* Pods-TinyConsole_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinyConsole_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E46205DF1978CAFCC3AD1CEAF1F8A2A /* Pods-TinyConsole_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinyConsole_Example-dummy.m"; sourceTree = "<group>"; };
+		10AD4E705611C448CFEF7ABCE22214F5 /* Pods-TinyConsole_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinyConsole_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		295703229B67B82F42568C3763AF61CC /* TinyConsole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConsole-umbrella.h"; sourceTree = "<group>"; };
+		2E189E3A2F2B58C26E7274C722ABF953 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373FC364387DFB8D2540BA97BD64E4C4 /* TinyConsole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConsole-prefix.pch"; sourceTree = "<group>"; };
+		37ACA567FECA3C5998F20D69B92513BE /* Pods-TinyConsole_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyConsole_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46181AEF7CFD8C90A952D906E20A46B4 /* TinyConsoleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConsoleViewController.swift; path = TinyConsole/Classes/TinyConsoleViewController.swift; sourceTree = "<group>"; };
+		4C9356C7CFCCC74FAA10F709553488BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F08B22B175F6F0CEC8E1601C0364F6A /* Pods_TinyConsole_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyConsole_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541005273759EB97F244C20008813778 /* Pods-TinyConsole_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyConsole_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BBC98F5DE74C5B70430DFD91B5F2728 /* TinyConsoleController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConsoleController.swift; path = TinyConsole/Classes/TinyConsoleController.swift; sourceTree = "<group>"; };
+		6E11F5CE177A8EB0E49332849E494881 /* TinyConsole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConsole.xcconfig; sourceTree = "<group>"; };
+		6EB47B981360425DE119D94BB68072C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C85A194885655B8319C2FE36A4B1ED7 /* TinyConsole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConsole-dummy.m"; sourceTree = "<group>"; };
+		8D19455635F3DC553B77C7EE5ED59C7B /* TinyConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930518FC4E1673FFC94DCDF418CBCE27 /* Pods-TinyConsole_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinyConsole_Example-umbrella.h"; sourceTree = "<group>"; };
+		9371366695C5B8257B3AA50CC67CB063 /* Pods-TinyConsole_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinyConsole_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948F7B01CAE539550401411AF87A09EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC51A45A6DE3743F4087A68B0A744241 /* Pods-TinyConsole_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinyConsole_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC882F5F14B769BCD3E1402AEE1F698B /* Pods-TinyConsole_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinyConsole_Example-resources.sh"; sourceTree = "<group>"; };
+		B40E0F76013AEFE64352E1ABB4D2BCDC /* Pods-TinyConsole_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinyConsole_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CB4BB72C40661E049EBA0CC12D02349F /* Pods_TinyConsole_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinyConsole_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A533DAA60F3149B19CAE9B7AD5F3D /* Pods-TinyConsole_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinyConsole_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8E40329C1A4D63C5EC10F8BB79F34B7 /* TinyConsole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConsole.modulemap; sourceTree = "<group>"; };
+		DFC31D0145E3B0DA8670C9372561DDDA /* Pods-TinyConsole_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinyConsole_Tests-resources.sh"; sourceTree = "<group>"; };
+		E71EF3611CA85E61F44C69C77022FCB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF314C8828A6878D629AE7E814A3E99 /* TinyConsole.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TinyConsole.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED84F07317914CFFF129E47C90583FED /* Pods-TinyConsole_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyConsole_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFDCC8C27CE619BDEB7F077CCC8BD91D /* Pods-TinyConsole_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinyConsole_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0713A669ECDA792FBEB5EC4F0250418 /* Pods-TinyConsole_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinyConsole_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2857308D85CACC53107B5261CD8F38F /* TinyConsole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConsole.swift; path = TinyConsole/Classes/TinyConsole.swift; sourceTree = "<group>"; };
+		F33A213BF3EDFF9E9EF633520D00840A /* Pods-TinyConsole_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinyConsole_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCD487C9090C3B7681D5DB644F8A9F52 /* Pods-TinyConsole_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinyConsole_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A61C40764EBD5055BC05040973E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9DF131C36D1B1701083DE9ADC48C86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39878F358739BC2DA070D954F91981A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EDB4A2698F2FAB143B03082CCE9705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA7DA3FBC1168C898D5A89D6894FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57907644FFAD99E8F5C27A7CD2953ACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050CC96EF19F80456C1310E74DCBE120 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6EB47B981360425DE119D94BB68072C5 /* LICENSE */,
+				4C9356C7CFCCC74FAA10F709553488BA /* README.md */,
+				EBF314C8828A6878D629AE7E814A3E99 /* TinyConsole.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4410C70E574A96567A7F68D8DA66DC90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				948F7B01CAE539550401411AF87A09EC /* Info.plist */,
+				D8E40329C1A4D63C5EC10F8BB79F34B7 /* TinyConsole.modulemap */,
+				6E11F5CE177A8EB0E49332849E494881 /* TinyConsole.xcconfig */,
+				7C85A194885655B8319C2FE36A4B1ED7 /* TinyConsole-dummy.m */,
+				373FC364387DFB8D2540BA97BD64E4C4 /* TinyConsole-prefix.pch */,
+				295703229B67B82F42568C3763AF61CC /* TinyConsole-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TinyConsole";
+			sourceTree = "<group>";
+		};
+		4A6010DFDF219D17E612C5AE03D112FC /* Pods-TinyConsole_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E189E3A2F2B58C26E7274C722ABF953 /* Info.plist */,
+				FCD487C9090C3B7681D5DB644F8A9F52 /* Pods-TinyConsole_Tests.modulemap */,
+				D28A533DAA60F3149B19CAE9B7AD5F3D /* Pods-TinyConsole_Tests-acknowledgements.markdown */,
+				F33A213BF3EDFF9E9EF633520D00840A /* Pods-TinyConsole_Tests-acknowledgements.plist */,
+				0B50EE4E46322E8ED5A38ABA1E2E1B07 /* Pods-TinyConsole_Tests-dummy.m */,
+				B40E0F76013AEFE64352E1ABB4D2BCDC /* Pods-TinyConsole_Tests-frameworks.sh */,
+				DFC31D0145E3B0DA8670C9372561DDDA /* Pods-TinyConsole_Tests-resources.sh */,
+				0D8615B35C03AB91D0E7825BE74BAE0F /* Pods-TinyConsole_Tests-umbrella.h */,
+				ED84F07317914CFFF129E47C90583FED /* Pods-TinyConsole_Tests.debug.xcconfig */,
+				EFDCC8C27CE619BDEB7F077CCC8BD91D /* Pods-TinyConsole_Tests.release.xcconfig */,
+			);
+			name = "Pods-TinyConsole_Tests";
+			path = "Target Support Files/Pods-TinyConsole_Tests";
+			sourceTree = "<group>";
+		};
+		54DEC025D0016DF000575EBB0C250C0F /* Pods-TinyConsole_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E71EF3611CA85E61F44C69C77022FCB8 /* Info.plist */,
+				9371366695C5B8257B3AA50CC67CB063 /* Pods-TinyConsole_Example.modulemap */,
+				10AD4E705611C448CFEF7ABCE22214F5 /* Pods-TinyConsole_Example-acknowledgements.markdown */,
+				F0713A669ECDA792FBEB5EC4F0250418 /* Pods-TinyConsole_Example-acknowledgements.plist */,
+				0E46205DF1978CAFCC3AD1CEAF1F8A2A /* Pods-TinyConsole_Example-dummy.m */,
+				AC51A45A6DE3743F4087A68B0A744241 /* Pods-TinyConsole_Example-frameworks.sh */,
+				AC882F5F14B769BCD3E1402AEE1F698B /* Pods-TinyConsole_Example-resources.sh */,
+				930518FC4E1673FFC94DCDF418CBCE27 /* Pods-TinyConsole_Example-umbrella.h */,
+				37ACA567FECA3C5998F20D69B92513BE /* Pods-TinyConsole_Example.debug.xcconfig */,
+				541005273759EB97F244C20008813778 /* Pods-TinyConsole_Example.release.xcconfig */,
+			);
+			name = "Pods-TinyConsole_Example";
+			path = "Target Support Files/Pods-TinyConsole_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E78B30E34930F7742F4BC1C1F4653FC2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8E8EBD4E0DDCAF35F7BCEFB5320FA40E /* Products */,
+				B2567A34319C2C42E9DA7C94024092E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8EBD4E0DDCAF35F7BCEFB5320FA40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F08B22B175F6F0CEC8E1601C0364F6A /* Pods_TinyConsole_Example.framework */,
+				CB4BB72C40661E049EBA0CC12D02349F /* Pods_TinyConsole_Tests.framework */,
+				8D19455635F3DC553B77C7EE5ED59C7B /* TinyConsole.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F341C07C104D11C97CAF6FC0A9F06E /* TinyConsole */ = {
+			isa = PBXGroup;
+			children = (
+				F2857308D85CACC53107B5261CD8F38F /* TinyConsole.swift */,
+				6BBC98F5DE74C5B70430DFD91B5F2728 /* TinyConsoleController.swift */,
+				46181AEF7CFD8C90A952D906E20A46B4 /* TinyConsoleViewController.swift */,
+				050CC96EF19F80456C1310E74DCBE120 /* Pod */,
+				4410C70E574A96567A7F68D8DA66DC90 /* Support Files */,
+			);
+			name = TinyConsole;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B2567A34319C2C42E9DA7C94024092E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54DEC025D0016DF000575EBB0C250C0F /* Pods-TinyConsole_Example */,
+				4A6010DFDF219D17E612C5AE03D112FC /* Pods-TinyConsole_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E78B30E34930F7742F4BC1C1F4653FC2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F341C07C104D11C97CAF6FC0A9F06E /* TinyConsole */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F762A9097975615793294E2D1C9B4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73469387386C6E02A989681089B30D5C /* Pods-TinyConsole_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81344E54C6EE09EBF5C79A49FE60EAC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C6CBE4AD0E4D4D4F5B6F549D53B963 /* TinyConsole-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB9618D1062E55BD0B18419EBB122F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59106329E1CC59855C88C8B14F1A1AB6 /* Pods-TinyConsole_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		174C3A0510C42916F280F4818DA19172 /* Pods-TinyConsole_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9059F25A37E486357E7376E966373F5C /* Build configuration list for PBXNativeTarget "Pods-TinyConsole_Tests" */;
+			buildPhases = (
+				5EFF05DE51D76743CE5247D6C7405FAF /* Sources */,
+				FEFA7DA3FBC1168C898D5A89D6894FF6 /* Frameworks */,
+				1F762A9097975615793294E2D1C9B4C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E32E3252857018010D55B34D822948 /* PBXTargetDependency */,
+			);
+			name = "Pods-TinyConsole_Tests";
+			productName = "Pods-TinyConsole_Tests";
+			productReference = CB4BB72C40661E049EBA0CC12D02349F /* Pods_TinyConsole_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A017B07DE5D49BF2DA1A6D245312874 /* TinyConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE9DAFC26778706824E6C97B6AA7C3A /* Build configuration list for PBXNativeTarget "TinyConsole" */;
+			buildPhases = (
+				F8AA776DCF4DED143E2344FBD0FE103A /* Sources */,
+				B39878F358739BC2DA070D954F91981A /* Frameworks */,
+				81344E54C6EE09EBF5C79A49FE60EAC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConsole;
+			productName = TinyConsole;
+			productReference = 8D19455635F3DC553B77C7EE5ED59C7B /* TinyConsole.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8633CDB02358EE12B73C23792F8A268B /* Pods-TinyConsole_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26269B363447D28E68F045CA6941D812 /* Build configuration list for PBXNativeTarget "Pods-TinyConsole_Example" */;
+			buildPhases = (
+				B5A15CC8A80E994446D7DB3A937AD2C8 /* Sources */,
+				63A61C40764EBD5055BC05040973E4C7 /* Frameworks */,
+				CCB9618D1062E55BD0B18419EBB122F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB2C7F84EB789A894D4CC80A923C60B /* PBXTargetDependency */,
+			);
+			name = "Pods-TinyConsole_Example";
+			productName = "Pods-TinyConsole_Example";
+			productReference = 4F08B22B175F6F0CEC8E1601C0364F6A /* Pods_TinyConsole_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8E8EBD4E0DDCAF35F7BCEFB5320FA40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8633CDB02358EE12B73C23792F8A268B /* Pods-TinyConsole_Example */,
+				174C3A0510C42916F280F4818DA19172 /* Pods-TinyConsole_Tests */,
+				5A017B07DE5D49BF2DA1A6D245312874 /* TinyConsole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFF05DE51D76743CE5247D6C7405FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B501AD00F352B00620B6E870A8DA1F36 /* Pods-TinyConsole_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A15CC8A80E994446D7DB3A937AD2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F277E2E6663E657267045B86B275023 /* Pods-TinyConsole_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AA776DCF4DED143E2344FBD0FE103A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A6D13BEC07B29F55C96225F440B1C0 /* TinyConsole-dummy.m in Sources */,
+				67D463223A8BD31F273D5787B46104A1 /* TinyConsole.swift in Sources */,
+				4C9B6688BBCB25D7D1C93A564198BB22 /* TinyConsoleController.swift in Sources */,
+				3E00F70FA51B2A8D71E3DFE3395760D2 /* TinyConsoleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E32E3252857018010D55B34D822948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TinyConsole_Example";
+			target = 8633CDB02358EE12B73C23792F8A268B /* Pods-TinyConsole_Example */;
+			targetProxy = D9AAC71622508E0D3F62350D134B0018 /* PBXContainerItemProxy */;
+		};
+		8AB2C7F84EB789A894D4CC80A923C60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConsole;
+			target = 5A017B07DE5D49BF2DA1A6D245312874 /* TinyConsole */;
+			targetProxy = 248C2A5CF6380CBD200ED0A1DA790864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11CC18F915526DF732B559BA40BD4454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED84F07317914CFFF129E47C90583FED /* Pods-TinyConsole_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinyConsole_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinyConsole_Tests/Pods-TinyConsole_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23CB291ACC69CD4DC273123CE7748633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541005273759EB97F244C20008813778 /* Pods-TinyConsole_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinyConsole_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinyConsole_Example/Pods-TinyConsole_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		244EA95739FB28285F29B2B93B8BDA4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E11F5CE177A8EB0E49332849E494881 /* TinyConsole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConsole/TinyConsole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConsole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConsole/TinyConsole.modulemap";
+				PRODUCT_MODULE_NAME = TinyConsole;
+				PRODUCT_NAME = TinyConsole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		246DB7ABBC6FBF0B25BDD03B3858351F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDCC8C27CE619BDEB7F077CCC8BD91D /* Pods-TinyConsole_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinyConsole_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinyConsole_Tests/Pods-TinyConsole_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9CF7BE30BD84BCC183E3266A6556F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E11F5CE177A8EB0E49332849E494881 /* TinyConsole.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConsole/TinyConsole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConsole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConsole/TinyConsole.modulemap";
+				PRODUCT_MODULE_NAME = TinyConsole;
+				PRODUCT_NAME = TinyConsole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2E50888D3B5E06E080B5B5B1FDEE016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ACA567FECA3C5998F20D69B92513BE /* Pods-TinyConsole_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinyConsole_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinyConsole_Example/Pods-TinyConsole_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26269B363447D28E68F045CA6941D812 /* Build configuration list for PBXNativeTarget "Pods-TinyConsole_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E50888D3B5E06E080B5B5B1FDEE016 /* Debug */,
+				23CB291ACC69CD4DC273123CE7748633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9059F25A37E486357E7376E966373F5C /* Build configuration list for PBXNativeTarget "Pods-TinyConsole_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CC18F915526DF732B559BA40BD4454 /* Debug */,
+				246DB7ABBC6FBF0B25BDD03B3858351F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE9DAFC26778706824E6C97B6AA7C3A /* Build configuration list for PBXNativeTarget "TinyConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF7BE30BD84BCC183E3266A6556F034 /* Debug */,
+				244EA95739FB28285F29B2B93B8BDA4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
